@@ -19,15 +19,15 @@ class ProfilePage extends StatelessWidget {
                   padding: const EdgeInsets.all(20),
                   children: <Widget>[
                     NavButton(
-                      text: "about",
+                      text: "About",
                       onPressed: () {},
                     ),
                     NavButton(
-                      text: "work",
+                      text: "Work",
                       onPressed: () {},
                     ),
                     NavButton(
-                      text: "contact",
+                      text: "Contack",
                       onPressed: () {},
                     ),
                   ],
@@ -76,15 +76,15 @@ class NavHeader extends StatelessWidget {
             Row(
               children: <Widget>[
                 NavButton(
-                  text: "about",
+                  text: "About",
                   onPressed: () {},
                 ),
                 NavButton(
-                  text: "work",
+                  text: "Work",
                   onPressed: () {},
                 ),
                 NavButton(
-                  text: "contact",
+                  text: "Contact",
                   onPressed: () {},
                 ),
               ],
@@ -101,7 +101,7 @@ class PKDot extends StatelessWidget {
     return Row(
       children: <Widget>[
         Text(
-          "PK MTECHVIRAL",
+          "Ankit",
           textScaleFactor: 2,
           style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -163,7 +163,6 @@ class ProfileInfo extends StatelessWidget {
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
-            image: AssetImage("pk.jpg"),
             alignment: Alignment.center,
             fit: BoxFit.cover,
           ),
@@ -179,7 +178,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.orange),
       ),
       Text(
-        "Pawan\nKumar",
+        "Ankit",
         textScaleFactor: 5,
         style: TextStyle(
           color: Colors.white,
@@ -190,9 +189,8 @@ class ProfileInfo extends StatelessWidget {
         height: 10,
       ),
       Text(
-        "A Google Developer Expert for Flutter, Dart & Web Tech.\n"
-        "I am also a youtuber having MTechViral youtube channel\n"
-        "where I make tutorials for technology.",
+        "An Androi9d Developer Expert in Android, Flutter, Dart & Web Tech.\n"
+        ,
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
